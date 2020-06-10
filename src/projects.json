@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "projectTitle": "Neon Rain",
+    "projectDescription": "This project was my final project from class that I have continued to work on.",
+    "projectLanguages": "This project uses react to build game decks and have game functionality through users choices",
+    "projectImage": "'https://imgur.com/HaKv4ow'",
+    "projectGitHubLink": "battleMage",
+    "projectHostSiteLink": "Action"
+  },
+  {
+    "id": 2,
+    "projectTitle": "Marvel Clicker",
+    "projectDescription": "This project is about randomizing a page of images and to not click on the same image twice",
+    "projectLanguages": "This project shows how updating doms and randomizing arrays can be used to keep score.",
+    "projectImage": "./assets/images/marvelImage.jpg",
+    "projectGitHubLink": "battleMage",
+    "projectHostSiteLink": "Action"
+  },
+  {
+    "id": 3,
+    "projectTitle": "Rock Event App",
+    "projectDescription": "This was a group project I helped with where we made an app for finding local rock events",
+    "projectLanguages": "This app was about showing the power of api calls, I mostly worked on the google maps api call and the ticketmaster api call",
+    "projectImage": "./assets/images/rockGroupImage.jpg",
+    "projectGitHubLink": "battleMage",
+    "projectHostSiteLink": "Action"
+  },
+  {
+    "id": 4,
+    "projectTitle": "Bamazon",
+    "projectDescription": "This app creates a table of products that the user can intereact with, get cost and quantities and interact through prompts to see different results.",
+    "projectLanguages": "This application shows how mysql works. In combination with the requirer npm module.",
+    "projectImage": "./assets/images/booksImage.jpg",
+    "projectGitHubLink": "battleMage",
+    "projectHostSiteLink": "Action"
+  },
+  {
+    "id": 5,
+    "projectTitle": "Little Library App",
+    "projectDescription": "This group project was making an application for the little libraries around our city.",
+    "projectLanguages": "For this application we used Bcrypt, Dotenv, Express,Express-session, Moment, Mysql, and Sequelize. I mostly did backend api calls to the server and modals.",
+    "projectImage": "./assets/images/littleLibraryImage.jpg",
+    "projectGitHubLink": "battleMage",
+    "projectHostSiteLink": "Action"
+  },
+  {
+    "id": 6,
+    "projectTitle": "Simpsons Gifs",
+    "projectDescription": "This project is about randomizing Gifs from an api and a click to start and stop function",
+    "projectLanguages": "This project displays the power of an ajax call and on click actions",
+    "projectImage": "./assets/images/theSimpsonsImage.jpeg",
+    "projectGitHubLink": "battleMage",
+    "projectHostSiteLink": "Action"
+  }
+]

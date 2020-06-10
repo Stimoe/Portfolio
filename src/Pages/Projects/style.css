@@ -1,0 +1,105 @@
+.row {
+  margin: 0px;
+  padding: 0px;
+  /* border: 3px solid green; */
+}
+.col {
+  margin: 0px;
+  padding: 0px;
+  /* border: 3px solid green; */
+}
+.project-left-column {
+  width: 250px;
+  height: 250px;
+}
+
+.project-left-top-row {
+  height: 75%;
+}
+.project-image {
+  object-fit: fill;
+  max-height: 185px;
+  width: 100%;
+  height: 100%;
+}
+.project-left-bottom-row {
+  height: 25%;
+}
+.project-header-div {
+  margin: auto;
+  text-align: center;
+  font-size: 150%;
+}
+
+.project-right-column {
+  width: 250px;
+  height: 250px;
+}
+.project-right-first-row {
+  height: 20%;
+}
+.project-description-div {
+  margin: auto;
+  font-size: 130%;
+  text-align: center;
+}
+.project-right-second-row {
+  height: 30%;
+}
+.project-technologies-div {
+  margin: auto;
+  text-align: center;
+}
+.project-right-third-row {
+  margin: auto;
+  height: 5%;
+  width: 80%;
+  background-color: red;
+}
+.project-resources-separator-div {
+  background-color: red;
+}
+.project-right-fourth-row {
+  height: 15%;
+}
+.project-resources-div {
+  margin: auto;
+  text-align: center;
+}
+.project-right-fifth-row {
+  height: 30%;
+}
+
+.project-resources {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: lightgreen;
+}
+.first-project-div {
+  width: 30%;
+  height: 100%;
+}
+.project-row-icon {
+  height: 70%;
+}
+.project-icon-div {
+  height: 100%;
+}
+.project-icon-image {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+.project-row-name {
+  height: 30%;
+  font-size: 80%;
+}
+.project-icon-title {
+  margin: auto;
+  text-align: center;
+}
+.second-project-div {
+  width: 25%;
+  height: 100%;
+}

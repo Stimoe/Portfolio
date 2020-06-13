@@ -52,7 +52,23 @@
 }
 
 .bottom-div {
+  display: flex;
+  justify-content: space-evenly;
   border: 3px solid yellow;
   height: 30%;
   width: 100%;
+}
+.github-link-div {
+  height: 100%;
+  width: 30%;
+  border: 3px solid blue;
+}
+.gitHub-link {
+  height: 100%;
+  width: 100%;
+}
+.linkedIn-link-div {
+  height: 100%;
+  width: 30%;
+  border: 3px solid blue;
 }

@@ -14,8 +14,6 @@ const allProjects = [
     projectLanguages:
       "React, Bcrypt, Dotenv, Express, Express-Sessions, Bootstrap, Ajax, JQuery",
     projectImage: require("../../assets/images/neonRainImage.png"),
-    projectGitHubLink: "https://github.com/Stimoe/neon-3",
-    projectHostSiteLink: "https://neon-3-1.herokuapp.com",
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
     gitHubLink: "https://github.com/Stimoe/neon-3",
     websiteIcon: require("../../assets/icons/monitor-icon.jpg"),
@@ -28,12 +26,10 @@ const allProjects = [
     projectDescription: "Web App",
     projectLanguages: "Html, Javascript, Css",
     projectImage: require("../../assets/images/marvelImage.jpg"),
-    projectGitHubLink: "https://github.com/Stimoe/marvel-Clicker",
-    projectHostSiteLink: "https://marvel-clicker-game.herokuapp.com",
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
-    gitHubLink: "https://github.com/Stimoe/neon-3",
+    gitHubLink: "https://github.com/Stimoe/marvel-Clicker",
     websiteIcon: require("../../assets/icons/monitor-icon.jpg"),
-    websiteLink: "https://neon-3-1.herokuapp.com",
+    websiteLink: "https://marvel-clicker-game.herokuapp.com",
   },
   {
     id: 3,
@@ -41,12 +37,10 @@ const allProjects = [
     projectDescription: "Web app that uses outside API",
     projectLanguages: "Html, Javascript, Css, Jquery",
     projectImage: require("../../assets/images/rockGroupImage.jpg"),
-    projectGitHubLink: "https://github.com/Stimoe/RockEventApp",
-    projectHostSiteLink: "https://stimoe.github.io/RockEventApp",
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
-    gitHubLink: "https://github.com/Stimoe/neon-3",
+    gitHubLink: "https://github.com/Stimoe/RockEventApp",
     websiteIcon: require("../../assets/icons/monitor-icon.jpg"),
-    websiteLink: "https://neon-3-1.herokuapp.com",
+    websiteLink: "https://stimoe.github.io/RockEventApp",
   },
   {
     id: 4,
@@ -54,12 +48,10 @@ const allProjects = [
     projectDescription: "Interactive database",
     projectLanguages: "Mysql, Javascript Node",
     projectImage: require("../../assets/images/booksImage.jpg"),
-    projectGitHubLink: "https://github.com/Stimoe/Bamazon",
-    projectHostSiteLink: "https://github.com/Stimoe/Bamazon",
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
-    gitHubLink: "https://github.com/Stimoe/neon-3",
+    gitHubLink: "https://github.com/Stimoe/Bamazon",
     websiteIcon: require("../../assets/icons/monitor-icon.jpg"),
-    websiteLink: "https://neon-3-1.herokuapp.com",
+    websiteLink: "https://github.com/Stimoe/Bamazon",
   },
   {
     id: 5,
@@ -68,12 +60,10 @@ const allProjects = [
     projectLanguages:
       "Bcrypt, Dotenv, Express, Express-session, Moment, Mysql2, Sequelize",
     projectImage: require("../../assets/images/littleLibraryImage.jpg"),
-    projectGitHubLink: "https://github.com/Stimoe/LittleLibrary",
-    projectHostSiteLink: "https://little-library-app.herokuapp.com",
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
-    gitHubLink: "https://github.com/Stimoe/neon-3",
+    gitHubLink: "https://github.com/Stimoe/LittleLibrary",
     websiteIcon: require("../../assets/icons/monitor-icon.jpg"),
-    websiteLink: "https://neon-3-1.herokuapp.com",
+    websiteLink: "https://little-library-app.herokuapp.com",
   },
 
   {
@@ -82,12 +72,10 @@ const allProjects = [
     projectDescription: "Ghiphy API randomizer",
     projectLanguages: "Html, Javascript, Axios, Ghiphy Api",
     projectImage: require("../../assets/images/theSimpsonsImage.jpeg"),
-    projectGitHubLink: "https://github.com/Stimoe/GifTastic",
-    projectHostSiteLink: "https://stimoe.github.io/GifTastic",
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
-    gitHubLink: "https://github.com/Stimoe/neon-3",
+    gitHubLink: "https://github.com/Stimoe/GifTastic",
     websiteIcon: require("../../assets/icons/monitor-icon.jpg"),
-    websiteLink: "https://neon-3-1.herokuapp.com",
+    websiteLink: "https://stimoe.github.io/GifTastic",
   },
 ];
 
@@ -108,15 +96,17 @@ class Projects extends Component {
   render() {
     let currentProjects = this.state.projects.map((card, index) => {
       return (
-        <div className="individual-card">
+        <div className="project-main-div">
           <ProjectCards
             projectTitle={card.projectTitle}
             projectDescription={card.projectDescription}
             projectLanguages={card.projectLanguages}
             projectImage={card.projectImage}
             projectGitHubLink={card.projectGitHubLink}
+            projectHostSiteLink={card.projectHostSiteLink}
             gitHubIcon={card.gitHubIcon}
             websiteIcon={card.websiteIcon}
+            websiteLink={card.websiteLink}
           />
         </div>
       );
@@ -124,8 +114,10 @@ class Projects extends Component {
 
     return (
       <div>
-        <Header />
-        <div className="container">
+        <div className="sticky-top">
+          <Header />
+        </div>
+        <div>
           <div className="currentProjects">
             {currentProjects.length ? currentProjects : null}
           </div>

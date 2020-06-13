@@ -9,13 +9,13 @@ const Header = () => (
       </Navbar.Brand>
       <Nav className="nav-bar" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="/">Active</Nav.Link>
+          <Nav.Link href="/">About Me</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link href="/projects">Projects</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/home">Active</Nav.Link>
+          <Nav.Link href="/home">Contact</Nav.Link>
         </Nav.Item>
       </Nav>
     </Navbar>

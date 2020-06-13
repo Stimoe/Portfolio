@@ -8,13 +8,59 @@
   padding: 0px;
   /* border: 3px solid green; */
 }
-.project-left-column {
-  width: 250px;
-  height: 250px;
+
+.project-main-div {
+  display: inline-block;
+  margin: auto;
+  padding: 0px;
+  position: relative;
 }
 
-.project-left-top-row {
-  height: 75%;
+.project-inside-main-div {
+  background: rgba(5, 5, 48, 0.46);
+  position: static;
+  margin: 20px;
+  border: solid rgba(20, 213, 70, 0) 5px;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  border-radius: 5%;
+  padding: 20px;
+  width: 600px;
+  height: 300px;
+  border: solid #e1660f 5px;
+  display: flex;
+  flex-direction: row;
+  /* grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; */
+  background: linear-gradient(rgba(5, 5, 48, 0.46), rgba(5, 5, 48, 0.46)),
+    url(https://resources.digivigil.com/videos/demoPoster.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.currentProjects {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets/images/background-840887_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+.project-left-div {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.project-left-top-div {
+  height: 80%;
+  width: 90%;
+  border: solid rgba(255, 255, 255, 0.8) 3px;
+}
+.project-image-div {
+  height: 100%;
 }
 .project-image {
   object-fit: fill;
@@ -22,84 +68,91 @@
   width: 100%;
   height: 100%;
 }
-.project-left-bottom-row {
-  height: 25%;
-}
-.project-header-div {
-  margin: auto;
-  text-align: center;
-  font-size: 150%;
-}
-
-.project-right-column {
-  width: 250px;
-  height: 250px;
-}
-.project-right-first-row {
+.project-left-bottom-div {
   height: 20%;
-}
-.project-description-div {
+  width: 90%;
+  position: relative;
   margin: auto;
-  font-size: 130%;
+  color: solid #e1660f;
+}
+.project-main-title {
+  margin-top: 5%;
+  height: 100%;
   text-align: center;
-}
-.project-right-second-row {
-  height: 30%;
-}
-.project-technologies-div {
-  margin: auto;
-  text-align: center;
-}
-.project-right-third-row {
-  margin: auto;
-  height: 5%;
-  width: 80%;
-  background-color: red;
-}
-.project-resources-separator-div {
-  background-color: red;
-}
-.project-right-fourth-row {
-  height: 15%;
-}
-.project-resources-div {
-  margin: auto;
-  text-align: center;
-}
-.project-right-fifth-row {
-  height: 30%;
+  font-weight: bold;
+  font-size: 150%;
+  color: #e1660f;
 }
 
+.project-right-div {
+  border-left: 3px solid black;
+  width: 60%;
+}
+.project-framework {
+  height: 20%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%;
+  color: #e1660f;
+}
+.framework-div {
+  margin-top: 2%;
+  height: 100%;
+}
+.project-technologies {
+  height: 30%;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  color: white;
+}
+.languages-div {
+  margin: auto;
+  width: 80%;
+  vertical-align: middle;
+  height: 60%;
+  font-size: 125%;
+}
+.project-seperator {
+  margin: auto;
+  width: 70%;
+  background-color: white;
+  height: 2%;
+}
 .project-resources {
+  height: 15%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%;
+  color: #e1660f;
+}
+.project-links-div {
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
-  background-color: lightgreen;
+  height: 33%;
 }
-.first-project-div {
-  width: 30%;
+.project-links {
+  height: 100%;
+  width: 15%;
+  border: 1px solid green;
+}
+.links-top-div {
+  height: 60%;
+}
+.links-image-div {
   height: 100%;
 }
-.project-row-icon {
-  height: 70%;
-}
-.project-icon-div {
-  height: 100%;
-}
-.project-icon-image {
+.links-image {
   object-fit: fill;
   width: 100%;
   height: 100%;
 }
-.project-row-name {
-  height: 30%;
-  font-size: 80%;
-}
-.project-icon-title {
-  margin: auto;
+.links-bottom-div {
+  height: 40%;
+  color: white;
   text-align: center;
 }
-.second-project-div {
-  width: 25%;
+.link-title {
+  margin-top: 10%;
   height: 100%;
 }

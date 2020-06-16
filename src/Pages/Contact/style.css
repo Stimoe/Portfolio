@@ -1,0 +1,67 @@
+.contact-page-div {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets/images/background-840887_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+}
+.inside-contact-card-div {
+  margin: auto;
+  background: rgba(5, 5, 48, 0.46);
+  position: static;
+  margin-top: 5%;
+  border: solid rgba(20, 213, 70, 0) 5px;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  border-radius: 5%;
+  padding: 20px;
+  width: 600px;
+  height: 300px;
+  border: solid #e1660f 5px;
+  display: flex;
+  flex-direction: row;
+
+  background: linear-gradient(rgba(5, 5, 48, 0.46), rgba(5, 5, 48, 0.46)),
+    url(https://resources.digivigil.com/videos/demoPoster.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.inside-contact-div {
+  width: 100%;
+  height: 100%;
+  border: 3px solid green;
+}
+.first-contact-div {
+  text-align: center;
+  color: white;
+  height: 25%;
+}
+.contact-header {
+  margin: auto;
+  font-size: 250%;
+  height: 100%;
+  width: 90%;
+}
+.second-contact-div {
+  text-align: center;
+  color: white;
+  height: 25%;
+  border: 3px solid blue;
+}
+.email-header {
+  margin: auto;
+  font-size: 175%;
+  height: 100%;
+  width: 90%;
+}
+.third-contact-div {
+  height: 25%;
+  border: 3px solid green;
+}
+.fourth-contact-div {
+  height: 25%;
+  border: 3px solid orange;
+}

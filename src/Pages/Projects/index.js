@@ -15,7 +15,7 @@ const allProjects = [
       "React, Bcrypt, Dotenv, Express, Express-Sessions, Bootstrap, Ajax, JQuery",
     projectImage: require("../../assets/images/neonRainImage.png"),
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
-    gitHubLink: "https://github.com/Stimoe/neon-3",
+    projectGitHubLink: "https://github.com/Stimoe/neon-3",
     websiteIcon: require("../../assets/icons/monitor-icon.jpg"),
     websiteLink: "https://neon-3-1.herokuapp.com",
   },
@@ -27,7 +27,7 @@ const allProjects = [
     projectLanguages: "Html, Javascript, Css",
     projectImage: require("../../assets/images/marvelImage.jpg"),
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
-    gitHubLink: "https://github.com/Stimoe/marvel-Clicker",
+    projectGitHubLink: "https://github.com/Stimoe/marvel-Clicker",
     websiteIcon: require("../../assets/icons/monitor-icon.jpg"),
     websiteLink: "https://marvel-clicker-game.herokuapp.com",
   },
@@ -38,7 +38,7 @@ const allProjects = [
     projectLanguages: "Html, Javascript, Css, Jquery",
     projectImage: require("../../assets/images/rockGroupImage.jpg"),
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
-    gitHubLink: "https://github.com/Stimoe/RockEventApp",
+    projectGitHubLink: "https://github.com/Stimoe/RockEventApp",
     websiteIcon: require("../../assets/icons/monitor-icon.jpg"),
     websiteLink: "https://stimoe.github.io/RockEventApp",
   },
@@ -49,7 +49,7 @@ const allProjects = [
     projectLanguages: "Mysql, Javascript Node",
     projectImage: require("../../assets/images/booksImage.jpg"),
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
-    gitHubLink: "https://github.com/Stimoe/Bamazon",
+    projectGitHubLink: "https://github.com/Stimoe/Bamazon",
     websiteIcon: require("../../assets/icons/monitor-icon.jpg"),
     websiteLink: "https://github.com/Stimoe/Bamazon",
   },
@@ -61,7 +61,7 @@ const allProjects = [
       "Bcrypt, Dotenv, Express, Express-session, Moment, Mysql2, Sequelize",
     projectImage: require("../../assets/images/littleLibraryImage.jpg"),
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
-    gitHubLink: "https://github.com/Stimoe/LittleLibrary",
+    projectGitHubLink: "https://github.com/Stimoe/LittleLibrary",
     websiteIcon: require("../../assets/icons/monitor-icon.jpg"),
     websiteLink: "https://little-library-app.herokuapp.com",
   },
@@ -73,7 +73,7 @@ const allProjects = [
     projectLanguages: "Html, Javascript, Axios, Ghiphy Api",
     projectImage: require("../../assets/images/theSimpsonsImage.jpeg"),
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
-    gitHubLink: "https://github.com/Stimoe/GifTastic",
+    projectGitHubLink: "https://github.com/Stimoe/GifTastic",
     websiteIcon: require("../../assets/icons/monitor-icon.jpg"),
     websiteLink: "https://stimoe.github.io/GifTastic",
   },
@@ -102,9 +102,9 @@ class Projects extends Component {
             projectDescription={card.projectDescription}
             projectLanguages={card.projectLanguages}
             projectImage={card.projectImage}
+            gitHubIcon={card.gitHubIcon}
             projectGitHubLink={card.projectGitHubLink}
             projectHostSiteLink={card.projectHostSiteLink}
-            gitHubIcon={card.gitHubIcon}
             websiteIcon={card.websiteIcon}
             websiteLink={card.websiteLink}
           />

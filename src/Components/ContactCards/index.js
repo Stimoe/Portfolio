@@ -33,7 +33,18 @@ function ContactCards(props) {
               </a>
             </div>
           </div>
-          <div className="fourth-contact-div"></div>
+          <div className="fourth-contact-div">
+            <div className="phone-number-title-div">
+              <div className="phone-number-title">
+                <a>PHONE (360) 710-3375</a>
+              </div>
+            </div>
+            {/* <div className = "phone-number-title-div">
+              <div className="phone-number">
+                <a>(360) 710-3375</a>
+              </div>
+              </div> */}
+          </div>
         </div>
       </div>
     </div>

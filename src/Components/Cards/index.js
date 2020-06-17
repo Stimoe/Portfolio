@@ -42,7 +42,7 @@ function ProjectCards(props) {
             </a>
           </div>
           <div className="project-links">
-            <a href={props.projectHostSiteLink} target="_blank">
+            <a href={props.websiteLink} target="_blank">
               <div className="links-top-div">
                 <div className="links-image-div">
                   <img className="links-image" src={props.websiteIcon}></img>

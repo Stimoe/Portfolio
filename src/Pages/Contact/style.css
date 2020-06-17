@@ -1,3 +1,7 @@
+.router-div {
+  height: 800px;
+  border: 3px solid orange;
+}
 .contact-page-div {
   display: flex;
   flex-direction: column;
@@ -32,7 +36,6 @@
 .inside-contact-div {
   width: 100%;
   height: 100%;
-  border: 3px solid green;
 }
 .first-contact-div {
   text-align: center;
@@ -49,7 +52,6 @@
   text-align: center;
   color: white;
   height: 25%;
-  border: 3px solid blue;
 }
 .email-header {
   color: #e1660f;
@@ -71,26 +73,29 @@
   flex-direction: row;
   justify-content: space-evenly;
   height: 25%;
-  border: 3px solid green;
 }
 .div-for-resume-title {
   padding-top: 2%;
   color: #e1660f;
   width: 45%;
   height: 100%;
-  border: 3px solid orange;
 }
 .div-for-pdf {
   padding-top: 2%;
   color: white;
   width: 30%;
   height: 100%;
-  border: 3px solid orange;
 }
 .pdf-title {
   color: white;
 }
 .fourth-contact-div {
+  text-align: center;
+  color: white;
   height: 25%;
-  border: 3px solid orange;
+}
+.phone-number-title-div {
+  padding-top: 2%;
+  height: 100%;
+  font-size: 170%;
 }

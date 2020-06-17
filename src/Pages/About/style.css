@@ -32,13 +32,11 @@
 .inside-about-div {
   width: 100%;
   height: 100%;
-  border: 3px solid green;
 }
 .top-div {
   display: flex;
   flex-direction: row;
   height: 70%;
-  border: 3px solid green;
   width: 100%;
 }
 .left-div {
@@ -49,7 +47,6 @@
 .my-image-div {
   height: 100%;
   width: 100%;
-  border: 3px solid red;
 }
 .my-image {
   height: 100%;
@@ -57,7 +54,6 @@
 }
 .right-div {
   width: 70%;
-  border: 3px solid blue;
   height: 100%;
 }
 .inside-right-div {
@@ -71,7 +67,6 @@
 }
 .inside-right-about-div-top {
   height: 50%;
-  border-bottom: 2px solid #e1660f;
 }
 .inside-right-about-div-bottom {
   margin-top: 2%;
@@ -80,14 +75,12 @@
 .bottom-div {
   display: flex;
   justify-content: space-evenly;
-  border: 3px solid yellow;
   height: 30%;
   width: 100%;
 }
 .github-link-div {
   height: 100%;
   width: 30%;
-  border: 3px solid blue;
 }
 .gitHub-link {
   height: 100%;
@@ -96,12 +89,10 @@
 .linkedIn-link-div {
   height: 100%;
   width: 30%;
-  border: 3px solid blue;
 }
 .lower-lnside-about-div {
   width: 100%;
   height: 100%;
-  border: 3px solid green;
 }
 .upper-about-div {
   text-align: center;
@@ -110,7 +101,6 @@
   width: 90%;
   height: 60%;
   margin: auto;
-  border: 3px solid blue;
 }
 .lower-about-div {
   text-align: center;
@@ -119,5 +109,4 @@
   color: white;
   width: 90%;
   height: 40%;
-  border: 3px solid green;
 }

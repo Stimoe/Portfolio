@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import pdfResume from "../../assets/pdf/Thomas_Stimac_Resume.pdf";
 
 function ContactCards(props) {
   return (
@@ -11,12 +12,27 @@ function ContactCards(props) {
           </div>
           <div className="second-contact-div">
             <div className="second-div-top">
-              <h1 className="email-header">Email me at</h1>
+              <h1 className="email-header">EMAIL ME AT</h1>
             </div>
             <div className="second-div-bottom"></div>
-            <h1 className="email-header">Thomas.S.Stimac@gmail.com</h1>
+            <h1 className="email">THOMAS.S.STIMAC@GMAIL.COM</h1>
           </div>
-          <div className="third-contact-div"></div>
+          <div className="third-contact-div">
+            <div className="div-for-resume-title">
+              <div className="resume-title">
+                <a>PDF OF RESUME</a>
+              </div>
+            </div>
+            <div className="div-for-pdf">
+              <a
+                className="pdf-title"
+                href={pdfResume}
+                download="Thomas's resume"
+              >
+                RESUME
+              </a>
+            </div>
+          </div>
           <div className="fourth-contact-div"></div>
         </div>
       </div>

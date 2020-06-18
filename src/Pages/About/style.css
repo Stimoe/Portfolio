@@ -1,5 +1,6 @@
 .router-div {
   height: 120%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .about-page-div {
   display: flex;
@@ -16,19 +17,17 @@
   background: rgba(5, 5, 48, 0.46);
   position: static;
   margin-top: 5%;
-  border: solid rgba(20, 213, 70, 0) 5px;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;
   border-radius: 5%;
   padding: 20px;
   width: 600px;
   height: 300px;
-  border: solid #e1660f 5px;
+  border: solid black 5px;
   display: flex;
   flex-direction: row;
 
-  background: linear-gradient(rgba(5, 5, 48, 0.46), rgba(5, 5, 48, 0.46)),
-    url(https://resources.digivigil.com/videos/demoPoster.jpg);
+  background-color: #777a86;
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -76,7 +75,7 @@
   height: 50%;
 }
 .bottom-div {
-  padding-top: 5%;
+  padding-top: 10%;
   display: flex;
   justify-content: space-evenly;
   height: 30%;
@@ -103,17 +102,17 @@
   font-size: 110%;
   color: white;
   width: 70%;
-  height: 50%;
+  height: 100%;
   margin: auto;
 }
 .languages-about-title {
+  padding-top: 5%;
   height: 30%;
-  font-size: 150%;
-  border-bottom: 3px solid #e1660f;
+  font-size: 140%;
 }
 .languages-about {
-  padding-top: 1%;
-  height: 60%;
+  font-size: 110%;
+  height: 100%;
 }
 .lower-about-div {
   text-align: center;

@@ -19,8 +19,8 @@ function AboutCards(props) {
               <div className="inside-right-div">
                 <div className="inside-right-about-div-top">
                   <p className="paragraph-about-me">
-                    Recent graduate from a Full Stack Web Development
-                    Certificate from the University of Washington.
+                    Full Stack Web Developer with a certificate from the
+                    University of Washington.
                   </p>
                 </div>
                 <div className="inside-right-about-div-bottom">
@@ -67,7 +67,7 @@ function AboutCards(props) {
               </p>
             </div>
           </div>
-          <div className="lower-about-div">
+          {/* <div className="lower-about-div">
             <div className="interest-title-div">
               <p className="other-about-me">MY INTEREST</p>
             </div>
@@ -89,7 +89,7 @@ function AboutCards(props) {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div></div>

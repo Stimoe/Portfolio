@@ -7,12 +7,9 @@ function ContactCards(props) {
     <div>
       <div className="inside-contact-card-div">
         <div className="inside-contact-div">
-          <div className="first-contact-div">
-            <h1 className="contact-header">HOW TO CONTACT ME</h1>
-          </div>
           <div className="second-contact-div">
             <div className="second-div-top">
-              <h1 className="email-header">EMAIL ME AT</h1>
+              <h1 className="email-header">EMAIL</h1>
             </div>
             <div className="second-div-bottom"></div>
             <h1 className="email">THOMAS.S.STIMAC@GMAIL.COM</h1>
@@ -20,7 +17,7 @@ function ContactCards(props) {
           <div className="third-contact-div">
             <div className="div-for-resume-title">
               <div className="resume-title">
-                <a>PDF OF RESUME</a>
+                <a>RESUME</a>
               </div>
             </div>
             <div className="div-for-pdf">
@@ -39,11 +36,6 @@ function ContactCards(props) {
                 <a>PHONE (360) 710-3375</a>
               </div>
             </div>
-            {/* <div className = "phone-number-title-div">
-              <div className="phone-number">
-                <a>(360) 710-3375</a>
-              </div>
-              </div> */}
           </div>
         </div>
       </div>

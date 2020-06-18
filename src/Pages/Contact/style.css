@@ -13,22 +13,19 @@
 }
 .inside-contact-card-div {
   margin: auto;
-  background: rgba(5, 5, 48, 0.46);
   position: static;
   margin-top: 5%;
-  border: solid rgba(20, 213, 70, 0) 5px;
+  border: solid black 5px;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;
   border-radius: 5%;
   padding: 20px;
   width: 600px;
   height: 300px;
-  border: solid #e1660f 5px;
   display: flex;
   flex-direction: row;
-
-  background: linear-gradient(rgba(5, 5, 48, 0.46), rgba(5, 5, 48, 0.46)),
-    url(https://resources.digivigil.com/videos/demoPoster.jpg);
+  color: white;
+  background-color: #777a86;
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -38,7 +35,6 @@
 }
 .first-contact-div {
   text-align: center;
-  color: white;
   height: 25%;
 }
 .contact-header {
@@ -49,11 +45,9 @@
 }
 .second-contact-div {
   text-align: center;
-  color: white;
   height: 25%;
 }
 .email-header {
-  color: #e1660f;
   margin: auto;
   font-size: 175%;
   height: 100%;
@@ -75,22 +69,20 @@
 }
 .div-for-resume-title {
   padding-top: 2%;
-  color: #e1660f;
   width: 45%;
-  height: 100%;
-}
-.div-for-pdf {
-  padding-top: 2%;
-  color: white;
-  width: 30%;
   height: 100%;
 }
 .pdf-title {
   color: white;
 }
+.div-for-pdf {
+  padding-top: 2%;
+  width: 30%;
+  height: 100%;
+}
+
 .fourth-contact-div {
   text-align: center;
-  color: white;
   height: 25%;
 }
 .phone-number-title-div {

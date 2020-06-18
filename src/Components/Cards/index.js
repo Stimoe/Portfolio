@@ -24,10 +24,6 @@ function ProjectCards(props) {
         <div className="project-technologies">
           <div className="languages-div">{props.projectLanguages}</div>
         </div>
-        <div className="project-seperator"></div>
-        <div className="project-resources">
-          <p>Resources</p>
-        </div>
         <div className="project-links-div">
           <div className="project-links">
             <a href={props.projectGitHubLink} target="_blank">

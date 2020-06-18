@@ -7,14 +7,15 @@ function ContactCards(props) {
     <div>
       <div className="inside-contact-card-div">
         <div className="inside-contact-div">
-          <div className="second-contact-div">
-            <div className="second-div-top">
+          <div className="first-contact-div">
+            <div className="first-div-top">
               <h1 className="email-header">EMAIL</h1>
             </div>
-            <div className="second-div-bottom"></div>
-            <h1 className="email">THOMAS.S.STIMAC@GMAIL.COM</h1>
+            <div className="first-div-bottom">
+              <h1 className="email">THOMAS.S.STIMAC@GMAIL.COM</h1>
+            </div>
           </div>
-          <div className="third-contact-div">
+          <div className="second-contact-div">
             <div className="div-for-resume-title">
               <div className="resume-title">
                 <a>RESUME</a>
@@ -30,7 +31,7 @@ function ContactCards(props) {
               </a>
             </div>
           </div>
-          <div className="fourth-contact-div">
+          <div className="third-contact-div">
             <div className="phone-number-title-div">
               <div className="phone-number-title">
                 <a>PHONE (360) 710-3375</a>

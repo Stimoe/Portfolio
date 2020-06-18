@@ -12,9 +12,8 @@ class About extends Component {
         <div className="sticky-top">
           <Header />
         </div>
-        <div className="aboutCards-container-div">
-          <AboutCards />
-        </div>
+
+        <AboutCards />
       </div>
     );
   }

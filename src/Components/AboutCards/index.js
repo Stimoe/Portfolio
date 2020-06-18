@@ -6,7 +6,7 @@ import myImage from "../../assets/images/myImageCropped.jpg";
 
 function AboutCards(props) {
   return (
-    <div>
+    <div className="main-about-div">
       <div className="inside-about-card-div">
         <div className="inside-about-div">
           <div className="top-div">
@@ -40,7 +40,6 @@ function AboutCards(props) {
                 </div>
               </a>
             </div>
-
             <div className="linkedIn-link-div">
               <a
                 href="https://www.linkedin.com/in/thomas-stimac/"

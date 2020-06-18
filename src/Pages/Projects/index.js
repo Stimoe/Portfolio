@@ -1,8 +1,6 @@
-import React, { Fragment, Component } from "react";
-import { Container, Row, Col } from "reactstrap";
+import React, { Component } from "react";
 import Header from "../../Components/NavBar/index";
 import ProjectCards from "../../Components/Cards/index";
-import projectCardsJson from "../../projects.json";
 import "./reset.css";
 import "./style.css";
 

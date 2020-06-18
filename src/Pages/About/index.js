@@ -1,8 +1,6 @@
 import React, { Fragment, Component } from "react";
-import { Container, Row, Col } from "reactstrap";
 import Header from "../../Components/NavBar/index";
 import AboutCards from "../../Components/AboutCards/index";
-import gitHubIcon from "../../assets/icons/GitHub_Logo.png";
 import "./style.css";
 
 class About extends Component {

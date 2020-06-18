@@ -1,3 +1,6 @@
+.router-div {
+  height: 120%;
+}
 .about-page-div {
   display: flex;
   flex-direction: column;
@@ -73,22 +76,23 @@
   height: 50%;
 }
 .bottom-div {
+  padding-top: 5%;
   display: flex;
   justify-content: space-evenly;
   height: 30%;
   width: 100%;
 }
 .github-link-div {
-  height: 100%;
-  width: 30%;
+  height: 60%;
+  width: 15%;
 }
 .gitHub-link {
   height: 100%;
   width: 100%;
 }
 .linkedIn-link-div {
-  height: 100%;
-  width: 40%;
+  height: 60%;
+  width: 20%;
 }
 .lower-lnside-about-div {
   width: 100%;
@@ -98,15 +102,68 @@
   text-align: center;
   font-size: 110%;
   color: white;
-  width: 90%;
-  height: 60%;
+  width: 70%;
+  height: 50%;
   margin: auto;
+}
+.languages-about-title {
+  height: 30%;
+  font-size: 150%;
+  border-bottom: 3px solid #e1660f;
+}
+.languages-about {
+  padding-top: 1%;
+  height: 60%;
 }
 .lower-about-div {
   text-align: center;
   font-size: 110%;
   margin: auto;
   color: white;
-  width: 90%;
-  height: 40%;
+  width: 70%;
+  height: 50%;
+}
+.interest-title-div {
+  height: 30%;
+  font-size: 150%;
+  border-bottom: 3px solid #e1660f;
+}
+.interest-div {
+  height: 70%;
+}
+.interest-top {
+  padding-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50%;
+  width: 100%;
+}
+.interest-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2%;
+  height: 50%;
+  width: 100%;
+}
+.interest-div-one {
+  /* color: red; */
+  height: 95%;
+  width: 40%;
+}
+.interest-div-two {
+  /* color: green; */
+  height: 95%;
+  width: 40%;
+}
+.interest-div-three {
+  height: 95%;
+  /* color: purple; */
+  width: 40%;
+}
+.interest-div-four {
+  /* color: yellow; */
+  height: 95%;
+  width: 40%;
 }

@@ -57,20 +57,43 @@ function AboutCards(props) {
       <div className="inside-about-card-div">
         <div className="lower-lnside-about-div">
           <div className="upper-about-div">
-            <p className="languages-about-me">
-              Languages and Applications: HTML5, CSS3, Javascript, JQuery,
-              Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express,
-              Handelbars.js, Heroku, and ReactJS.
-            </p>
+            <div className="languages-about-title">
+              <p className="languages-title">Languages and Applications:</p>
+            </div>
+            <div className="languages-about">
+              <p className="languages-about-me">
+                HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js,
+                MySQL, MongoDB, Express, Handelbars.js, Heroku, and ReactJS.
+              </p>
+            </div>
           </div>
           <div className="lower-about-div">
-            <p className="other-about-me">
-              My passions include raising honey bees, playing video games,
-              traveling, and reading.
-            </p>
+            <div className="interest-title-div">
+              <p className="other-about-me">MY INTEREST</p>
+            </div>
+            <div className="interest-div">
+              <div className="interest-top">
+                <div className="interest-div-one">
+                  <p className="other-about-me">RAISING HONEY BEES</p>
+                </div>
+                <div className="interest-div-two">
+                  <p className="other-about-me">PLAYING VIDEO GAMES</p>
+                </div>
+              </div>
+              <div className="interest-bottom">
+                <div className="interest-div-three">
+                  <p className="other-about-me">TRAVELING</p>
+                </div>
+                <div className="interest-div-four">
+                  <p className="other-about-me">READING</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <div></div>
+      <div></div>
     </div>
   );
 }

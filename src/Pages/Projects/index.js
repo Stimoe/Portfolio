@@ -7,10 +7,10 @@ import "./style.css";
 const allProjects = [
   {
     id: 1,
-    projectTitle: "Neon Rain",
-    projectDescription: "Web card game",
+    projectTitle: "NEON RAIN",
+    projectDescription: "WEB CARD GAME",
     projectLanguages:
-      "React, Bcrypt, Dotenv, Express, Express-Sessions, Bootstrap, Ajax, JQuery",
+      "REACT, BCRYPT, EXPRESS, AJAX, JQUERY, HTML, CSS, JAVASCRIPT",
     projectImage: require("../../assets/images/neonRainImage.png"),
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
     projectGitHubLink: "https://github.com/Stimoe/neon-3",
@@ -20,10 +20,10 @@ const allProjects = [
 
   {
     id: 2,
-    projectTitle: "Marvel Clicker",
-    projectDescription: "Web App",
-    projectLanguages: "Html, Javascript, Css",
-    projectImage: require("../../assets/images/marvelImage.jpg"),
+    projectTitle: "MARVEL CLICKER",
+    projectDescription: "WEB APP",
+    projectLanguages: "HTML, CSS, JAVASCRIPT",
+    projectImage: require("../../assets/images/MARVEL-IMAGE.jpg"),
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
     projectGitHubLink: "https://github.com/Stimoe/marvel-Clicker",
     websiteIcon: require("../../assets/icons/monitor-icon.jpg"),
@@ -31,9 +31,9 @@ const allProjects = [
   },
   {
     id: 3,
-    projectTitle: "Rock Event",
-    projectDescription: "Web app that uses outside API",
-    projectLanguages: "Html, Javascript, Css, Jquery",
+    projectTitle: "ROCK EVENT",
+    projectDescription: "WEB APP FOR LOOKING FOR ROCK CONCERTS",
+    projectLanguages: "HTML, CSS, JAVASCRIPT, JQUERY, AXIOS",
     projectImage: require("../../assets/images/rockGroupImage.jpg"),
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
     projectGitHubLink: "https://github.com/Stimoe/RockEventApp",
@@ -42,9 +42,9 @@ const allProjects = [
   },
   {
     id: 4,
-    projectTitle: "Bamazon",
-    projectDescription: "Interactive database",
-    projectLanguages: "Mysql, Javascript Node",
+    projectTitle: "BAMAZON",
+    projectDescription: "INTERACTIVE DATABASE",
+    projectLanguages: "MYSQL, NODE.JS, MYSQL",
     projectImage: require("../../assets/images/booksImage.jpg"),
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
     projectGitHubLink: "https://github.com/Stimoe/Bamazon",
@@ -53,10 +53,10 @@ const allProjects = [
   },
   {
     id: 5,
-    projectTitle: "Little Library",
-    projectDescription: "Web app with database and users",
+    projectTitle: "LITTLE LIBRARY",
+    projectDescription: "WEB APP WITH DATABASE AND USERS",
     projectLanguages:
-      "Bcrypt, Dotenv, Express, Express-session, Moment, Mysql2, Sequelize",
+      "BCRYPT, DOTENV, EXPRESS, EXPRESS-SESSION, MOMENT, MYSQL, SEQUELIZE",
     projectImage: require("../../assets/images/littleLibraryImage.jpg"),
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
     projectGitHubLink: "https://github.com/Stimoe/LittleLibrary",
@@ -66,9 +66,9 @@ const allProjects = [
 
   {
     id: 6,
-    projectTitle: "Simpsons Gifs",
-    projectDescription: "Ghiphy API randomizer",
-    projectLanguages: "Html, Javascript, Axios, Ghiphy Api",
+    projectTitle: "SIMPSONS GIFS",
+    projectDescription: "GHIPHY API RANDOMIZER",
+    projectLanguages: "HTML, CSS, JAVASCRIPT, AXIOS, GHIPHY API",
     projectImage: require("../../assets/images/theSimpsonsImage.jpeg"),
     gitHubIcon: require("../../assets/icons/largeGithubIcon.png"),
     projectGitHubLink: "https://github.com/Stimoe/GifTastic",

@@ -66,29 +66,6 @@ function AboutCards(props) {
               </p>
             </div>
           </div>
-          {/* <div className="lower-about-div">
-            <div className="interest-title-div">
-              <p className="other-about-me">MY INTEREST</p>
-            </div>
-            <div className="interest-div">
-              <div className="interest-top">
-                <div className="interest-div-one">
-                  <p className="other-about-me">RAISING HONEY BEES</p>
-                </div>
-                <div className="interest-div-two">
-                  <p className="other-about-me">PLAYING VIDEO GAMES</p>
-                </div>
-              </div>
-              <div className="interest-bottom">
-                <div className="interest-div-three">
-                  <p className="other-about-me">TRAVELING</p>
-                </div>
-                <div className="interest-div-four">
-                  <p className="other-about-me">READING</p>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
       <div></div>

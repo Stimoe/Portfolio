@@ -1,9 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
-In the project directory, you can run:
-
+Website at, https://thomas-stimac-react-portfolio.herokuapp.com/
 ### `npm start`
 
 Runs the app in the development mode.<br />
